@@ -180,9 +180,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -261,3 +261,126 @@ textarea {
   }
 }
 
+header, #about, #events, #donations, #contact {
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1 span {
+  text-transform: lowercase;
+  display: inline-block;
+  font-size: 60px;
+  margin-right: 16px;
+}
+
+header img {
+  width: 75px;
+  height: 150px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.human {
+  background-color: #ff7e26;
+  color: white;
+  padding: 0 2px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.banner {
+  font-size: 40px;
+}
+
+.burning {
+  background-color: #920000;
+  color: #ffffff;
+  padding: 0 3px;
+}
+
+.opener {
+  font-size: 28px;
+}
+
+p, ul {
+  font-size: 21px;
+}
+
+a:hover {
+
+}
+
+a {
+  /*text-decoration: none;*/
+}
+
+/* unvisited link */
+a:link {
+  color: #cf0001;
+}
+
+/* visited link */
+a:visited {
+  color: #8c0001;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f15323;
+}
+
+/* selected link */
+a:active {
+  color: #8b00ff;
+}
+
+label {
+  text-align: left;
+  display: block;
+  width: 120px;
+  font-size: 18px;
+}
+
+.contactus div {
+  margin: 8px 0;
+}
+
+input, textarea {
+  border-color: #aaa;
+  border-width: 1px;
+  box-shadow: 0 0 0 #719ECE;
+}
+
+input[type="text"], input[type="email"] {
+  outline: none !important;
+  width: 240px;
+  height: 24px;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+}
+
+input[type="submit"] {
+  background-color: #ff7e26;
+  color: #ffffff;
+  width: 80px;
+  height: 24px;
+  border-collapse: collapse;
+  border: 0 none;
+}
+
+/*input:focus {*/
+/*  outline: none !important;*/
+/*  border-color: #719ECE;*/
+/*  box-shadow: 0 0 2px #719ECE;*/
+/*}*/
+
+/*textarea:focus {*/
+/*  outline: none !important;*/
+/*  border-color: #719ECE;*/
+/*  box-shadow: 0 0 2px #719ECE;*/
+/*}*/

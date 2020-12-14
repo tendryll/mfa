@@ -12,9 +12,9 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
 
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
@@ -31,45 +31,120 @@
 
 <!-- Add your site or application content here -->
 <header>
-  <h1>Memphis Freethought Alliance</h1>
-  <h2 id="banner">Are you burning to ask questions you have been told you can't ask?</h2>
+  <h1>
+    <img src="img/mfa.logo.jpeg" alt="memphis freethought alliance logo"/>
+    <span>|</span>
+    <span>Memphis</span>
+    <span>Freethought</span>
+    <span>Alliance</span>
+  </h1>
+  <h2 class="banner">Are you <span class="burning">burning to ask questions</span> you have been told you can't ask?
+  </h2>
 </header>
 
 <main>
-  <p id="intro">
-    Do you crave insightful conversations that focus on the human experience? Are you wanting to discuss topics in
-    science, society, ethics or the environment? Do you live in the Mid-South and wish to connect with other open-minded
-    individuals? If so, come join us!
-  </p>
-  <p>
-    The Memphis Freethought Alliance is composed of <a
-    href="https://www.huffpost.com/entry/freethinkers-reason-and-r_b_10081728">freethinkers</a> and others who focus on
-    what it means to be human.
-    Founded over fifteen year ago, the Memphis Freethought Alliance continues to be a beacon for those who wish to
-    promote the advancement of education and science. It aims to do so by
-  <ul>
-    <li>Providing support and fellowship to freethinkers in the Mid-South</li>
-    <li>The promotion of free speech and the exchange of ideas</li>
-    <li>Providing a forum of educational films and lectures</li>
-    <li>Defending the separation of church and State as upheld by the constitution</li>
-    <li>The opposing of government sponsored religion</li>
-    <li>Defending the teaching of scientific theories over non-scientific theories in public school</li>
-    <li>Eliminating prejudice and discrimination</li>
-    <li>Opposing pseudoscience, myths, misleading information in the media and beyond</li>
-    <li>Defending the civil rights of atheists, agnostics, secular humanists, and others who do not put stock in the
-      beliefs of the supernatural
-    </li>
-    <li>And seeks for the betterment of society through secular humanism, science, logic, reasoning, and rational
-      philosophical discourse.
-    </li>
-  </ul>
+  <div id="about">
+    <p class="opener">
+      Do you crave insightful conversations that focus on the human experience? Are you wanting to discuss topics in
+      science, society, ethics and/or the environment? Do you live in the Mid-South and wish to connect with other
+      open-minded individuals? If so, join us!
+    </p>
+    <p>
+      The Memphis Freethought Alliance (MFA) is composed of <a
+      href="https://www.huffpost.com/entry/freethinkers-reason-and-r_b_10081728" target="_blank">freethinkers</a> and
+      others who focus on <span class="human">what it means to be human</span>.
+      Founded over fifteen year ago, the Memphis Freethought Alliance continues to be a beacon for those who wish to
+      promote the advancement of education and science. It aims to do so by
+    <ul>
+      <li>Providing support and fellowship to freethinkers in the Mid-South</li>
+      <li>The promotion of free speech and the exchange of ideas</li>
+      <li>Providing a forum of educational films and lectures</li>
+      <li>Defending the separation of church and State as upheld by the constitution</li>
+      <li>The opposing of government sponsored religion</li>
+      <li>Defending the teaching of scientific theories over non-scientific theories in public school</li>
+      <li>Eliminating prejudice and discrimination</li>
+      <li>Opposing pseudoscience, myths, misleading information in the media and beyond</li>
+      <li>Defending the civil rights of atheists, agnostics, secular humanists, and others who do not put stock in the
+        beliefs of the supernatural
+      </li>
+      <li>And seeks for the betterment of society through secular humanism, science, logic, reasoning, and rational
+        philosophical discourse.
+      </li>
+    </ul>
 
-  <p>We come together at
-    the <a href="https://www.meetup.com/secularhumanism-18/events/274598443/">Freethought Book Club</a> to discuss a
-    chosen book. We also <a href="https://www.meetup.com/secularhumanism-18/events/">invite speakers, view films and do
-      more!</a>
-  </p>
-  <p>Join us in exploration.</p>
+    <p>We come together at
+      the <a href="https://www.meetup.com/secularhumanism-18/events/274598443/" target="_blank">Freethought Book
+        Club</a> to discuss a
+      chosen book. We also <a href="https://www.meetup.com/secularhumanism-18/events/" target="_blank">invite speakers,
+        view films and
+        do more!</a>
+    </p>
+    <p>Join us in exploration.</p>
+  </div>
+
+  <div id="events">
+<!--    <div>-->
+<!--      Freethought Book Club via Zoom-->
+<!--    </div>-->
+    <h3>This is what we do</h3>
+    <p></p>
+  </div>
+
+  <div id="donations">
+    <h3>Support</h3>
+
+  </div>
+
+  <div id="contact">
+    <h3>Get in touch!</h3>
+    <div class="contactus">
+      <div>
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" name="name" class="form-value"/>
+      </div>
+
+      <div>
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="email" class="form-value"/>
+      </div>
+
+<!--      <div>-->
+<!--        <label for="subject" class="form-label">Subject</label>-->
+<!--        <input type="text" id="subject" name="subject" class="form-value"/>-->
+<!--      </div>-->
+
+      <div>
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" name="message" class="form-value" maxlength="250"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" />
+      </div>
+    </div>
+
+<!--    <div class="form-body">-->
+<!--      <div class="form-row"><label class="form-label">Name: <span class="form-req">*</span></label><input type="text"-->
+<!--                                                                                                          name="name"-->
+<!--                                                                                                          class="form-value">-->
+<!--      </div>-->
+<!--      <div class="form-row"><label class="form-label">Email: <span class="form-req">*</span></label><input type="text"-->
+<!--                                                                                                           name="email"-->
+<!--                                                                                                           class="form-value"><label-->
+<!--        class="form-label opt-in-label"><input type="checkbox" name="opt-in" class="opt-in-checkbox"><span-->
+<!--        class="opt-in">Check here to receive email updates</span></label></div>-->
+<!--      <div class="form-row"><label class="form-label">Subject: <span class="form-req">*</span></label><input type="text"-->
+<!--                                                                                                             name="subject"-->
+<!--                                                                                                             class="form-value">-->
+<!--      </div>-->
+<!--      <div class="form-row"><label class="form-label">Message: <span class="form-req">*</span></label><textarea-->
+<!--        name="message" class="form-value"></textarea></div>-->
+<!--      <div class="form-row"><input type="submit" value="Submit" class="form-submit" onclick="return false;"></div>-->
+<!--    </div>-->
+<!--    <div id="msg_6cb32f2a36194df093ca033bdafd0031" class="form-message" style="display:none;"> Thank you for contacting-->
+<!--      us! If needed, you will hear back within 48-72 hours.-->
+<!--    </div>-->
+  </div>
 </main>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
