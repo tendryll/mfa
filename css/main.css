@@ -373,6 +373,15 @@ input[type="submit"] {
   border: 0 none;
 }
 
+#quotes p {
+  text-align: right;
+}
+
+#quotes p span {
+  font-weight: bold;
+  display: block;
+}
+
 /*input:focus {*/
 /*  outline: none !important;*/
 /*  border-color: #719ECE;*/
