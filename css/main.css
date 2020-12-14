@@ -373,10 +373,6 @@ input[type="submit"] {
   border: 0 none;
 }
 
-#quotes p {
-  text-align: right;
-}
-
 #quotes p span {
   font-weight: bold;
   display: block;
