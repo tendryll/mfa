@@ -378,6 +378,12 @@ input[type="submit"] {
   display: block;
 }
 
+.err {
+  display: block;
+  font-size: 18px;
+  color: darkred;
+}
+
 /*input:focus {*/
 /*  outline: none !important;*/
 /*  border-color: #719ECE;*/

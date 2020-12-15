@@ -92,35 +92,42 @@
 
   <div id="support">
     <!-- TODO - Update this to be relevant to the MFA -->
-<!--    Support Humanist Values — Donate Today!-->
+    <!--    Support Humanist Values — Donate Today!-->
 
-<!--    Donate now, and you will support the AHA's work to promote humanism in American society. Your donation will advance-->
-<!--    humanist education and scholarship, protect the separation of church and state, promote humanist issues directly to-->
-<!--    our nation's leading policymakers, propel humanist grassroots advocacy and lobbying, and increase humanist-->
-<!--    visibility through national advertising and online communications.-->
+    <!--    Donate now, and you will support the AHA's work to promote humanism in American society. Your donation will advance-->
+    <!--    humanist education and scholarship, protect the separation of church and state, promote humanist issues directly to-->
+    <!--    our nation's leading policymakers, propel humanist grassroots advocacy and lobbying, and increase humanist-->
+    <!--    visibility through national advertising and online communications.-->
   </div>
 
   <div id="contact">
     <h3>Get in touch!</h3>
     <div class="contactus">
-      <div>
-        <label for="name" class="form-label">Name</label>
-        <input type="text" id="name" name="name" class="form-value"/>
-      </div>
+      <form id="cform" action="contact.php" method="post">
+        <div id="errors"></div>
 
-      <div>
-        <label for="email" class="form-label">Email</label>
-        <input type="email" id="email" name="email" class="form-value"/>
-      </div>
+        <div>
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" name="name" class="form-value"/>
+        </div>
 
-      <div>
-        <label for="message" class="form-label">Message</label>
-        <textarea id="message" name="message" class="form-value" maxlength="250"></textarea>
-      </div>
+        <div>
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" name="email" class="form-value"/>
+        </div>
 
-      <div>
-        <input type="submit" value="Submit"/>
-      </div>
+        <div>
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" name="message" class="form-value" maxlength="250"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="Submit" class="g-recaptcha"
+                 data-sitekey="reCAPTCHA_site_key"
+                 data-callback='onSubmit'
+                 data-action='submit'>
+        </div>
+      </form>
     </div>
 
     <div id="quotes">
@@ -136,6 +143,7 @@
   </div>
 </main>
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>

@@ -1,10 +1,10 @@
 {
-  "name": " ",
+  "name": "mfa",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "description": "Memphis Freethought Alliance website",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Sean Alphonse",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
@@ -12,6 +12,26 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  }
+    "parcel-bundler": "^1.12.4",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "main": "main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-validate": "^2.0.0",
+    "query-validation": "^0.2.0",
+    "recaptcha-v3": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tendryll/mfa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tendryll/mfa/issues"
+  },
+  "homepage": "https://github.com/tendryll/mfa#readme"
 }
