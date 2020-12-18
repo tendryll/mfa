@@ -261,7 +261,7 @@ textarea {
   }
 }
 
-header, #about, #events, #donations, #contact {
+header, #about, #events, #donations, #contact, #support {
   margin: 0 auto;
   width: 90%;
 }
@@ -269,8 +269,12 @@ header, #about, #events, #donations, #contact {
 h1 span {
   text-transform: lowercase;
   display: inline-block;
-  font-size: 60px;
+  font-size: 72px;
   margin-right: 16px;
+}
+
+h2 {
+  font-size: 56px;
 }
 
 header img {
@@ -287,11 +291,7 @@ header img {
 }
 
 h3 {
-  font-size: 24px;
-}
-
-.banner {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .burning {
@@ -382,6 +382,12 @@ input[type="submit"] {
   display: block;
   font-size: 18px;
   color: darkred;
+}
+
+#events {
+}
+
+.right {
 }
 
 /*input:focus {*/

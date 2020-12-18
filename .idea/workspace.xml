@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6deadcc8-fe2f-4668-9698-b1093be0e481" name="Default Changelist" comment="Initial commit.">
+    <list default="true" id="6deadcc8-fe2f-4668-9698-b1093be0e481" name="Default Changelist" comment="Added some initial code to process the contact form.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +38,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/fonts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mfa/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +62,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607822504979</updated>
-      <workItem from="1607822506800" duration="2091000" />
+      <workItem from="1607822506800" duration="5142000" />
+      <workItem from="1607896766500" duration="11534000" />
+      <workItem from="1607958296150" duration="9794000" />
+      <workItem from="1607992271177" duration="1076000" />
+      <workItem from="1607993484661" duration="41000" />
+      <workItem from="1607993535366" duration="3059000" />
+      <workItem from="1608255664631" duration="11000" />
+      <workItem from="1608255699866" duration="5442000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1607823145116</created>
@@ -51,14 +78,113 @@
       <option name="project" value="LOCAL" />
       <updated>1607823145116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated text content.">
+      <created>1607824881943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607824881943</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added file to .gitignore. Wrapped content in header and main tags in index.html. Updated font-family and margins in normalize.css.">
+      <created>1607830473526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607830473526</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added http-equiv Cache-Control, Pragma, and Expires tags.">
+      <created>1607830690262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607830690262</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed spelling">
+      <created>1607831222168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607831222168</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added logo. Updated CSS for format the content. Added the This is what we do, Support and Get in touch sections.">
+      <created>1607923198656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607923198656</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated the submit button text.">
+      <created>1607923356237</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607923356237</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated the submit button text.">
+      <created>1607923407327</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607923407327</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added quotes">
+      <created>1607959038292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607959038292</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed spelling">
+      <created>1607961170241</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607961170241</updated>
+    </task>
+    <task id="LOCAL-00011" summary="removed text alignment of quotes">
+      <created>1607972545884</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607972545884</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added some initial code to process the contact form.">
+      <created>1607997499223</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607997499223</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Updated text content." />
+    <MESSAGE value="Added file to .gitignore. Wrapped content in header and main tags in index.html. Updated font-family and margins in normalize.css." />
+    <MESSAGE value="Added http-equiv Cache-Control, Pragma, and Expires tags." />
+    <MESSAGE value="Fixed spelling" />
+    <MESSAGE value="Added logo. Updated CSS for format the content. Added the This is what we do, Support and Get in touch sections." />
+    <MESSAGE value="Updated the submit button text." />
+    <MESSAGE value="Added quotes" />
+    <MESSAGE value="fixed spelling" />
+    <MESSAGE value="removed text alignment of quotes" />
+    <MESSAGE value="Added some initial code to process the contact form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some initial code to process the contact form." />
   </component>
 </project>
