@@ -261,7 +261,7 @@ textarea {
   }
 }
 
-header, #about, #events, #donations, #contact, #support {
+.column {
   margin: 0 auto;
   width: 90%;
 }
@@ -388,6 +388,13 @@ input[type="submit"] {
 }
 
 .right {
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 /*input:focus {*/
